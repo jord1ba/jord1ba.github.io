@@ -55,14 +55,22 @@ aside > hr {
     margin-bottom: 5%;
 }
 
+.row {
+    display: flex;
+}
 .contact_img {
     margin-top: 5%;
+    margin-bottom: 5%;
     margin-left: 10%;
+    margin-right: 10%;
     width: 15%;
+    height: 60px;
+    float: left;
 }
 .contact_text {
-    display: inline;
+    float: right;
     font-size: 24px;
+    padding-top: 7.5%;
 }
 
 ul {
